@@ -3,6 +3,11 @@ C# DLL for helpers 😄
 
 A.C.A.P.I. = Advanced C# API for Productivity and Integration
 
+## License 📜
+
+![License: Azur](https://img.shields.io/badge/license-Azur-blue)
+
+
 ## 💻 Current Version
 
 It's alpha `1.2`
