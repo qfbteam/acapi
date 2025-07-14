@@ -1,6 +1,8 @@
 # acapi
 C# DLL for helpers 😄
 
+A.C.A.P.I. = Advanced C# API for Productivity and Integration
+
 ## 💻 Current Version
 
 It's alpha `1.2`
