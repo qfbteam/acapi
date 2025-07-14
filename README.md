@@ -10,9 +10,9 @@ A.C.A.P.I. = Advanced C# API for Productivity and Integration
 
 ## 💻 Current Version
 
-It's alpha `1.2`
+It's beta `1.0.0`
 
-Source it's alpha `1.2`
+Source it's beta `1.0.0`
 
 ## 💡 Tip
 
