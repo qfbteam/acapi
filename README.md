@@ -15,9 +15,9 @@ License: https://github.com/qfbteam/acapi/blob/main/LICENSE.md
 
 | Component          | Version       | Status          | Notes                        |
 |--------------------|---------------|-----------------|------------------------------|
-| DLL Release        | `0.3.2-beta`  | Latest Stable   | Available for download        |
+| DLL Release        | `0.4.0-beta`  | Latest Stable   | Available for download        |
 | Source Code        | `0.1.9-beta`  | Latest Stable  | Actively updated in repository |
-| Planned DLL Update  | `0.4.0-beta`  | Upcoming        | New features & improvements   |
+| Planned DLL Update  | `0.4.5-beta`  | Upcoming        | New features & improvements   |
 | How to Use (Docs)  | `0.4.0-beta`  | Latest Updated  | Documentation for new features|
 
 ---
@@ -34,9 +34,10 @@ License: https://github.com/qfbteam/acapi/blob/main/LICENSE.md
 ---
 
 ⚠️ Dependencies:
-Please include the following DLLs alongside `acapi.dll`(NuGet):
+Please install all dependences of zip file:
 - `DiscordRPC.dll`
 - `Newtonsoft.Json.dll`
+- `etc` 
 
 
 ---
@@ -63,7 +64,7 @@ Msg.Show("Done waiting!", "Timer");
 1. Download the DLL.
 2. In your C# project:
 
-   * Right-click **References** → **Add Reference** → Browse for your dll `acapi.dll`.
+   * Right-click **References** → **Add Reference** → Browse for your dll `acapi.dll` and dependencies.
 
 ---
 
@@ -205,14 +206,13 @@ DiscordRichPresence.Shutdown();
 **Example usage:**
 
 ```csharp
-using acapi;
 
 class Program
 {
     static void Main()
     {
-        DiscordRichPresence.Init("your_client_id_here");
-        DiscordRichPresence.UpdatePresence("Playing", "A.C.A.P.I.");
+        acapi.DiscordRichPresence.Init("your_client_id_here");
+        acapi.DiscordRichPresence.UpdatePresence("Playing", "A.C.A.P.I.");
 
         Console.WriteLine("Press ENTER to exit...");
         Console.ReadLine();
