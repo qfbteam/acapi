@@ -4,6 +4,24 @@ Here you’ll find all the important updates and changes made to this project.
 
 ---
 
+## \[0.4.5-Leaked] — *Latest Update*
+
+### ✅ What’s New:
+
+* Added new features and improvements to enhance stability and performance.
+* Improved integration with `DiscordRichPresence` for smoother status updates.
+* Enhanced the `Close` class with better handling for edge cases when closing forms and applications.
+* Updated internal timers and message display utilities for more accurate timing and clearer notifications.
+
+### 🛠️ Fixes:
+
+* Fixed several bugs related to process termination and resource cleanup.
+* Resolved minor UI glitches in message boxes.
+* Improved error handling in shutdown sequences to prevent unexpected crashes.
+
+🔗 **[Download 0.4.5-Leaked here](https://github.com/qfbteam/acapi/releases/tag/AcApiBeta4.5Leaked)**
+
+
 ## \[0.4.0-beta] — *Currently Stable*
 
 ### ✅ What’s New:
