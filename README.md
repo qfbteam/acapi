@@ -39,22 +39,6 @@ Please install all dependences of zip file:
 - `Newtonsoft.Json.dll`
 - `etc` 
 
-
----
-
-## 💡 Tip
-
-To simplify usage, add this at the top of your file:
-
-```csharp
-using acapi;
-
-Then you can just call:
-
-```csharp
-Msg.Show("Done waiting!", "Timer");
-```
-
 ---
 
 ## ✅ How to Use
