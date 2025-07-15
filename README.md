@@ -33,6 +33,14 @@ License: https://github.com/qfbteam/acapi/blob/main/LICENSE.md
 
 ---
 
+⚠️ Dependencies:
+Please include the following DLLs alongside `acapi.dll`(NuGet):
+- `DiscordRPC.dll`
+- `Newtonsoft.Json.dll`
+
+
+---
+
 ## 💡 Tip
 
 To simplify usage, add this at the top of your file:
