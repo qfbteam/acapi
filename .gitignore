@@ -1,5 +1,4 @@
+# Ignora todos os arquivos dentro da pasta source
 source/*
-
+# Mas não ignora a própria pasta
 !source/
-
-source/*.*
