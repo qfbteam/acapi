@@ -5,7 +5,8 @@ A.C.A.P.I. = Advanced C# API for Productivity and Integration
 
 ## License 📜
 
-![License: Azur](https://img.shields.io/badge/license-Azur-blue)
+![License: Azur](https://img.shields.io/badge/license-Azur-blue)(https://github.com/qfbteam/acapi/blob/main/LICENSE.md)
+Or click here: https://github.com/qfbteam/acapi/blob/main/LICENSE.md
 
 ## 💻 Current Version
 
