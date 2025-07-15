@@ -66,13 +66,18 @@
   </footer>
 
   <script>
-    fetch("web.md")
-      .then(response => response.text())
+    fetch("web.md?nocache=" + new Date().getTime())
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("Failed to load web.md");
+        }
+        return response.text();
+      })
       .then(text => {
         document.getElementById("content").innerHTML = marked.parse(text);
       })
       .catch(error => {
-        document.getElementById("content").innerHTML = "<p>Error loading documentation.</p>";
+        document.getElementById("content").innerHTML = "<p style='color: red;'>Error loading documentation.</p>";
         console.error(error);
       });
   </script>
