@@ -9,7 +9,8 @@ A.C.A.P.I. = Advanced C# API for Productivity and Integration
 
 **[Click here for License](https://github.com/qfbteam/acapi/blob/main/LICENSE.md)**
 
---
+---
+
 ## Documentation 📃
 
 **[Click here for documentation](https://github.com/qfbteam/acapi/blob/main/doc.md)**
