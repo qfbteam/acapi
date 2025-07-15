@@ -1,3 +1,18 @@
+## 💡 Tip
+
+To simplify usage, add this at the top of your file:
+
+```csharp
+using acapi;
+```
+Then you can just call:
+
+```csharp
+Msg.Show("Done waiting!", "Timer");
+```
+
+---
+
 ## 📢 Message Box
 
 Show a simple message box with text and title:
