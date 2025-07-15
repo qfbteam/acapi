@@ -22,6 +22,17 @@ License: https://github.com/qfbteam/acapi/blob/main/LICENSE.md
 
 ---
 
+## 🚀 acapi Version Roadmap
+
+| Version Range  | Status              | Description                                                     |
+|----------------|---------------------|-----------------------------------------------------------------|
+| 0.1.x - 0.3.x  | Initial Beta        | Development of basic core features                              |
+| 0.4.x - 0.9.0  | Advanced Beta       | New features (e.g., Discord RPC), refactoring, and intensive testing |
+| 0.9.0 - 0.9.9 | Release Candidate (RC) | Final preparations for stability, bug fixes, and complete documentation |
+| 1.0.0          | Stable Release      | Mature API, fully tested and ready for general use             |
+
+---
+
 ## 💡 Tip
 
 To simplify usage, add this at the top of your file:
