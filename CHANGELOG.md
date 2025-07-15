@@ -1,55 +1,68 @@
 # 📦 Changelog
 
-Any significant modifications to this project will be recorded here.
+Here you’ll find all the important updates and changes made to this project.
 
 ---
 
-## [0.4.0-beta] * Presently Stable*
+## \[0.4.0-beta] — *Currently Stable*
 
-### ✅ Added: `Close` static helper class
-  - `Close.Form(Form form)` - Closes a particular Windows Form.
-  - `Close.App()` - Ends the application either gently or firmly.
-  To close third-party processes (like `"notepad"`), use `CloseProcess.AskToClose(string processName)`.
+### ✅ What’s New:
 
-Integration of `DiscordRichPresence`:
-  - `Init(string clientId)`
-  - `UpdatePresence(string state, string details)`
-  - `Shutdown()`
+* Added a static helper class called `Close` to make closing things easier:
 
-### 🛠️ Repaired: Safe fallback shutdown techniques are now used for closing methods.
-- Using `CloseProcess`, process-closing inconsistencies were fixed.
+  * `Close.Form(Form form)` closes a specific Windows Form.
+  * `Close.App()` safely or forcefully closes the application.
+  * To close third-party processes (like `"notepad"`), use `CloseProcess.AskToClose(string processName)`.
 
-🔗 **[Get 0.4.0-beta](https://github.com/qfbteam/acapi/releases/tag/AcApiBeta4.0)**
+* Integrated `DiscordRichPresence` with these methods:
 
----
+  * `Init(string clientId)` — starts the Discord presence.
+  * `UpdatePresence(string state, string details)` — updates the status.
+  * `Shutdown()` — stops the integration.
 
-## [0.3.2-beta] - *Close Feature Update and Initial Beta Termination*
+### 🛠️ Fixes:
 
-### ✅ Added: The `Close` class was presented.
-  - `Close.Form(Form form)` - Closes particular Windows forms.
-  - `Close.App()` - Safely or firmly ends the entire application.
-  
-> 🧩 Signals the end of the **first beta phase** and the start of more extensive features.
+* Improved shutdown methods to use safer, more reliable techniques.
+* Fixed issues when closing processes via `CloseProcess`.
 
-🔗 **[Get 0.3.2-beta](https://github.com/qfbteam/acapi/releases/tag/AcApiBeta3.2)**
+🔗 **[Download 0.4.0-beta here](https://github.com/qfbteam/acapi/releases/tag/AcApiBeta4.0)**
 
 ---
 
-## [0.1.9-beta] - *First Compiled Version*
+## \[0.3.2-beta] — *Close Feature Added & End of First Beta*
 
-### ✅ `Msg.Show(title,text)` was added; it shows a native Windows message box.
-- Timer.Wait(seconds)`: This pauses the execution of code for a specified amount of time.
+### ✅ What’s New:
 
-> 📦 The first version to make the compiled DLL available to the general public. The source code was first made available in version `0.0.7-beta`.
+* Introduced the `Close` class to help close forms and apps:
 
-🔗 **[Get 0.1.9-beta](https://github.com/qfbteam/acapi/releases/tag/AcApi)**
+  * `Close.Form(Form form)` closes specific Windows Forms.
+  * `Close.App()` safely or forcefully closes the app.
+
+> This version marks the end of the **first beta phase** and the start of bigger features.
+
+🔗 **[Download 0.3.2-beta here](https://github.com/qfbteam/acapi/releases/tag/AcApiBeta3.2)**
 
 ---
 
-## [0.0.7-beta] *First Source-Only Publication*
+## \[0.1.9-beta] — *First Compiled Release*
 
-### 📄 Metadata Only: The project was published with just a simple {Version` identifier.
-- There is currently no working C# codebase.
+### ✅ What’s New:
 
-> 🗑️ Later, during `0.3.2-beta`, the original source was deleted.  
-> <0.3.3-beta (fixed invisible)` brought back Codebase.
+* Added `Msg.Show(title, text)` to display native Windows message boxes.
+* Added `Timer.Wait(seconds)` to pause code execution for a set time.
+
+> This was the first release to make the compiled DLL publicly available.
+> Source code became available starting from version `0.0.7-beta`.
+
+🔗 **[Download 0.1.9-beta here](https://github.com/qfbteam/acapi/releases/tag/AcApi)**
+
+---
+
+## \[0.0.7-beta] — *Initial Source-Only Release*
+
+### 📄 Metadata only:
+
+The project was published with just a simple version identifier—no working C# code yet.
+
+> Later, in `0.3.2-beta`, the original source was deleted.
+> It was restored in `<0.3.3-beta (fixed invisible)`.
