@@ -16,7 +16,7 @@ License: https://github.com/qfbteam/acapi/blob/main/LICENSE.md
 | Component          | Version       | Status          | Notes                        |
 |--------------------|---------------|-----------------|------------------------------|
 | DLL Release        | `0.4.0-beta`  | Latest Stable   | Available for download        |
-| Source Code        | `0.1.9-beta`  | Latest Stable  | Actively updated in repository |
+| Source Code        | `0.4.0-beta`  | Latest Stable  | Actively updated in repository |
 | Planned DLL Update  | `0.4.5-beta`  | Upcoming        | New features & improvements   |
 | How to Use (Docs)  | `0.4.0-beta`  | Latest Updated  | Documentation for new features|
 
