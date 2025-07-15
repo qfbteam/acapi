@@ -98,9 +98,7 @@ Add the NuGet package `DiscordRPC` to your project.
 ### 🔹 Initialize Discord RPC
 
 ```csharp
-using acapi;
-
-DiscordRichPresence.Init("your_client_id_here");
+acapi.DiscordRichPresence.Init("your_client_id_here");
 ```
 
 ---
@@ -110,7 +108,7 @@ DiscordRichPresence.Init("your_client_id_here");
 Set your custom status like "Playing", "Watching", etc.
 
 ```csharp
-DiscordRichPresence.UpdatePresence("Playing", "A.C.A.P.I.");
+acapi.DiscordRichPresence.UpdatePresence("Playing", "A.C.A.P.I.");
 ```
 
 ---
@@ -120,7 +118,7 @@ DiscordRichPresence.UpdatePresence("Playing", "A.C.A.P.I.");
 Call this when closing your app to cleanly disconnect:
 
 ```csharp
-DiscordRichPresence.Shutdown();
+acapi.DiscordRichPresence.Shutdown();
 ```
 
 ---
@@ -151,3 +149,12 @@ class Program
     }
 }
 ```
+
+## Github 🐈
+
+Just open official repository
+
+```csharp
+acapi.Github.Open()
+```
+
